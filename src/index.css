@@ -25,3 +25,9 @@ p{
 .button-play{
   width: 25% !important;
 }
+
+@media screen and (max-width: 360px) {
+  .button-play{
+    width: 50% !important;
+  }
+}

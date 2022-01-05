@@ -19,3 +19,18 @@
     background-color: #059c8b ;
     border-color: #fffcc9;
 }
+
+@media screen and (max-width: 360px) {
+    .root{
+        width: 55px;
+        height: 55px;
+        font-size: 30px;
+    }
+    
+    .root:hover{
+        width: 55px;
+        height: 55px;
+        font-size: 30px;
+    }
+   
+  }
