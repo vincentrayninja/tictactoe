@@ -1,0 +1,16 @@
+.root{
+    width: 70px;
+    height: 70px;
+    border: 1px solid black;
+    font-size: 40px;
+    text-align: center;
+}
+
+.root:hover{
+    width: 70px;
+    height: 70px;
+    border: 1px solid black;
+    font-size: 40px;
+    text-align: center;
+    background-color: greenyellow ;
+}

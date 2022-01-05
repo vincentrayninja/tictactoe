@@ -1,0 +1,17 @@
+.root{
+    height: 90vh;
+    width: 100vw;
+    background-color: rgba(0, 0, 0, 0.753);
+    position: absolute;
+    text-align: center;
+    padding: 20px;
+    background-image: url('https://cliply.co/wp-content/uploads/2021/09/CLIPLY_372109170_FREE_FIREWORKS_400.gif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.text{
+    color: #fff;
+    font-size: 18px;
+}
+
