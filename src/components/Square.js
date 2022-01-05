@@ -6,7 +6,7 @@ export default function Square({index, handlerPositionVal,positionsVal, turn}) {
         handlerPositionVal(index, turn);
     }
     return (
-        <button className={Style.root} onClick={(e) => handleClick(e, index)} disabled={ positionsVal } >{ positionsVal }
+        <button className={Style.root} onClick={(e) => handleClick(e, index)} disabled={ positionsVal } style={ positionsVal === 'X'? { color: 'black' } : { color: "#fffcc9" } } >{ positionsVal }
         </button>
     )
 }

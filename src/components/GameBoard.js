@@ -45,13 +45,15 @@ export default function GameBoard({ row, clickHandlerOnGrid, turn, counter, setW
       var selectedIndex =
         availableIndexes[Math.floor(Math.random() * availableIndexes.length)];
       arr[selectedIndex] = turn;
-      setPositions(arr);
-      clickHandlerOnGrid(selectedIndex);
-      setInitateAutoPilot(counter % 2 == 0);
-        let wincheck = calculateWinner(positions);
-        if(wincheck){
-            setWinner(wincheck)
-        }
+      setTimeout(function(){
+        setPositions(arr);
+        clickHandlerOnGrid(selectedIndex);
+        setInitateAutoPilot(counter % 2 == 0);
+          let wincheck = calculateWinner(positions);
+          if(wincheck){
+              setWinner(wincheck)
+          }
+      }, 500);
     }else{
       let wincheck = calculateWinner(positions);
         if(wincheck){

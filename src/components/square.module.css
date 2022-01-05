@@ -4,6 +4,10 @@
     border: 1px solid black;
     font-size: 40px;
     text-align: center;
+    background-color: #00d4bc;
+    color: #fffcc9;
+    font-weight: bold;
+    border-color: #00eabb;
 }
 
 .root:hover{
@@ -12,5 +16,6 @@
     border: 1px solid black;
     font-size: 40px;
     text-align: center;
-    background-color: greenyellow ;
+    background-color: #059c8b ;
+    border-color: #fffcc9;
 }
