@@ -10,6 +10,14 @@
     background-size: cover;
     background-position: center;
 }
+.rootFail{
+    height: 90vh;
+    width: 100vw;
+    background-color: rgba(0, 0, 0, 0.753);
+    position: absolute;
+    text-align: center;
+    padding: 20px;
+}
 .text{
     color: #fff;
     font-size: 18px;

@@ -13,6 +13,7 @@ export default function GameBoard({ row, clickHandlerOnGrid, turn, counter, setW
     let indexes = Array.from(Array(positions.length).keys());
     let availableIndexes = indexes.filter((index) => arr[index] == null);
     let wincheck = calculateWinner(positions);
+    console.log(wincheck, availableIndexes);
     if(!wincheck && availableIndexes.length == 0 ){
       setIsTie(true);
     }
@@ -48,6 +49,11 @@ export default function GameBoard({ row, clickHandlerOnGrid, turn, counter, setW
       clickHandlerOnGrid(selectedIndex);
       setInitateAutoPilot(counter % 2 == 0);
         let wincheck = calculateWinner(positions);
+        if(wincheck){
+            setWinner(wincheck)
+        }
+    }else{
+      let wincheck = calculateWinner(positions);
         if(wincheck){
             setWinner(wincheck)
         }

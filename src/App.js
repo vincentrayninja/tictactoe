@@ -68,14 +68,14 @@ function App() {
         <Header />
 
         {
-          isWin ? <Winner winnerName={winName} /> : ''
+          isWin ? <Winner winnerName={winName} symbol={symbol} /> : ''
         }
 
         {
           isTie ? <Tie /> : ''
         }
         {
-          timesUp ? <TimesUp /> : ''
+          timesUp ? <Tie /> : ''
         }
 
         { !maze ? <MazeSelect setMaze={setMaze} maze={maze}  /> : <p className="text-center p-2" >You have selected Maze of <span className="well" >{`(${maze} X ${maze})`}</span></p> }
