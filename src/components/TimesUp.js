@@ -10,7 +10,7 @@ export default function TimesUp() {
             <br />
             <img src="https://i.pinimg.com/originals/7f/40/ce/7f40cec1e8a63d6c6a6f90f979027db2.gif" width={200}  />
             <br />
-            <button className="btn btn-warning" onClick={handlerRefresh} >Play Again</button>
+            <button className="btn btn-warning button-play" onClick={handlerRefresh} >Play Again</button>
         </div>
     )
 }

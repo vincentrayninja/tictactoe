@@ -13,7 +13,7 @@ export default function Winner({winnerName, symbol}) {
                 <br />
                 <img className="m-3" src={Win} width={200} />
                 <br />
-                <button className="btn btn-warning" onClick={handlerRefresh} >Play Again</button>
+                <button className="btn btn-warning button-play" onClick={handlerRefresh} >Play Again</button>
             </div>
         )
     }else{
@@ -23,7 +23,7 @@ export default function Winner({winnerName, symbol}) {
                 <br />
                 <img className="m-3" src={Loss} width={200} />
                 <br />
-                <button className="btn btn-warning" onClick={handlerRefresh} >Play Again</button>
+                <button className="btn btn-warning button-play" onClick={handlerRefresh} >Play Again</button>
             </div>
         )
     }

@@ -11,7 +11,7 @@ export default function Tie() {
             <br />
             <img src="https://thumbs.gfycat.com/EllipticalJampackedBarb-max-1mb.gif" width={110}  />
             <br />
-            <button className="btn btn-warning" onClick={handlerRefresh} >Rematch</button>
+            <button className="btn btn-warning button-play" onClick={handlerRefresh} >Rematch</button>
         </div>
     )
 }
